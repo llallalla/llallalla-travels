@@ -18,7 +18,7 @@
 <p class="date">시행일: 2026년 8월 6일</p>
 
 <h2>1. 수집하는 개인정보</h2>
-<p><strong>llallalla travels는 어떠한 개인정보도 수집하지 않습니다.</strong> 회원가입이 없으며, 이용자가 입력한 여행 기록·사진은 어떤 서버로도 전송되지 않습니다. (환율 조회 접속은 5항 참고)</p>
+<p><strong>llallalla travels는 어떠한 개인정보도 수집하지 않습니다.</strong> 회원가입이 없으며, 이용자가 입력한 여행 기록·사진은 어떤 서버로도 전송되지 않습니다. (외부 접속이 일어나는 경우는 5·6·7·8항 참고)</p>
 
 <h2>2. 데이터 저장</h2>
 <p>앱에서 작성한 여행 계획, 일정, 일기, 지출 기록은 <strong>사용자의 기기 안에만</strong> 저장됩니다. 개발자를 포함한 누구도 이 데이터에 접근할 수 없습니다.</p>
@@ -29,13 +29,14 @@
 <h2>4. 사진 접근</h2>
 <p>티켓·QR 사진을 첨부하는 기능이 있습니다. 앱은 사진 보관함 전체에 접근하지 않으며,
 사용자가 애플의 사진 선택 화면에서 직접 고른 사진만 전달받아 앱 내부 저장 공간에 보관합니다.
-이 사진은 외부로 전송되지 않으며 기기 안에만 남습니다. 앱을 삭제하면 함께 삭제됩니다.</p>
+이 사진은 외부로 전송되지 않으며 기기 안에만 남습니다. 앱을 삭제하면 함께 삭제됩니다.
+(단, 이용자가 직접 영수증 판독 기능에 올린 사진은 8항과 같이 판독 목적으로만 전송됩니다.)</p>
 
 <h2>5. 환율 조회를 위한 외부 접속</h2>
 <p>여러 통화로 적은 지출을 원화(또는 달러)로 환산해 보여주기 위해, 앱이 공개 환율 서비스
 (frankfurter.app)에 접속해 <strong>환율표만</strong> 받아옵니다. 이때 여행 기록·사진·기기 식별자 등
 어떤 개인정보도 보내지 않습니다. 일반적인 인터넷 접속과 마찬가지로 접속 IP와 시각이 상대 서버에
-남을 수 있습니다. 앱에서 외부로 나가는 통신은 이것 하나뿐입니다.</p>
+남을 수 있습니다. </p>
 
 <h2>6. 오류 리포팅</h2>
 <p>앱이 예기치 않게 종료되거나 오류가 나면, 문제를 고치기 위해 오류 정보가
@@ -50,10 +51,17 @@
 공유된 데이터는 <strong>90일 뒤 자동 삭제</strong>되며, 즉시 삭제를 원하시면 문의 주소로 링크를 보내주시면
 지워드립니다. 이 기능을 쓰지 않으면 어떤 여행 데이터도 서버에 올라가지 않습니다.</p>
 
-<h2>8. 제3자 제공</h2>
-<p>수집하는 정보가 없으므로 제3자에게 제공하는 정보도 없습니다. 5항의 환율 서비스와 6항의 오류 수집 서비스에도 이용자가 입력한 내용은 보내지 않습니다.</p>
+<h2>8. 영수증 판독 (AI)</h2>
+<p>'영수증으로 기록' 기능을 사용하면, 이용자가 고른 <strong>영수증 사진</strong>이 판독을 위해
+저희 서버를 거쳐 AI 서비스(Anthropic, 미국)로 전송됩니다. 사진은 날짜·상호·금액을 읽는
+<strong>판독 목적으로만</strong> 사용되며, 저희 서버에 저장되지 않습니다. 판독이 끝나면 결과(날짜·상호·금액·분류)만
+기기로 돌아오고, 그 내용은 다른 여행 기록과 마찬가지로 기기 안에만 저장됩니다.
+이 기능을 쓰지 않으면 어떤 사진도 전송되지 않습니다.</p>
 
-<h2>9. 문의</h2>
+<h2>9. 제3자 제공</h2>
+<p>수집하는 정보가 없으므로 제3자에게 제공하는 정보도 없습니다. 5항의 환율 서비스와 6항의 오류 수집 서비스에도 이용자가 입력한 내용은 보내지 않으며, 8항의 영수증 사진은 판독 목적 외에 쓰이지 않습니다.</p>
+
+<h2>10. 문의</h2>
 <p>개인정보 관련 문의: <a href="mailto:lazygus@daum.net">lazygus@daum.net</a></p>
 
 <hr>
@@ -62,7 +70,7 @@
 <h1>Privacy Policy</h1>
 <p class="date">Effective: August 6, 2026</p>
 <h2>1. Data We Collect</h2>
-<p><strong>llallalla travels collects no personal data.</strong> There is no sign-up, and the trips and photos you enter are never transmitted to any server. (See section 5 for exchange-rate lookups.)</p>
+<p><strong>llallalla travels collects no personal data.</strong> There is no sign-up, and the trips and photos you enter are never transmitted to any server. (See sections 5-8 for the cases where the app talks to the internet.)</p>
 <h2>2. Data Storage</h2>
 <p>Your trip plans, itineraries, diaries, and expense records are stored <strong>only on your device</strong>. No one, including the developer, can access this data.</p>
 <h2>3. Backup Files</h2>
@@ -71,13 +79,14 @@
 <p>The app lets you attach ticket or QR photos. It never browses your photo library.
 Only the photos you pick yourself in Apple's photo picker are handed to the app and stored
 inside the app's own storage on your device. They are never uploaded anywhere, and they are
-removed when you delete the app.</p>
+removed when you delete the app. (Exception: photos you explicitly submit to the receipt-reading
+feature are transmitted for reading only — see section 8.)</p>
 
 <h2>5. Exchange Rate Lookup</h2>
 <p>To convert expenses entered in different currencies, the app fetches <strong>exchange rates only</strong>
 from a public service (frankfurter.app). No personal data — no trips, photos, or device identifiers — is
 ever sent. As with any internet request, your IP address and the time of the request may be visible to that
-service. This is the only outbound connection the app makes.</p>
+service.</p>
 
 <h2>6. Crash Reporting</h2>
 <p>If the app crashes or hits an error, diagnostic information is sent to an error-monitoring
@@ -92,9 +101,16 @@ people you trust. Ticket photos and diary entries are never included. Shared dat
 <strong>automatically deleted after 90 days</strong>; to delete sooner, send the link to our contact
 address. If you never use this feature, no trip data ever leaves your device.</p>
 
-<h2>8. Third Parties</h2>
-<p>Since we collect nothing, nothing is shared with third parties. Neither the exchange-rate service (section 5) nor the crash-reporting service (section 6) receives anything you enter in the app.</p>
-<h2>9. Contact</h2>
+<h2>8. Receipt Reading (AI)</h2>
+<p>If you use the "Log from receipts" feature, the <strong>receipt photos you pick</strong> are sent
+through our server to an AI service (Anthropic, USA) to be read. Photos are used <strong>only to
+extract the date, place, and amount</strong> and are never stored on our server. Only the reading
+result comes back to your device, where it is stored locally like the rest of your trip data.
+If you never use this feature, no photos are ever transmitted.</p>
+
+<h2>9. Third Parties</h2>
+<p>Since we collect nothing, nothing is shared with third parties. Neither the exchange-rate service (section 5) nor the crash-reporting service (section 6) receives anything you enter in the app, and receipt photos (section 8) are used for reading only.</p>
+<h2>10. Contact</h2>
 <p>Questions: <a href="mailto:lazygus@daum.net">lazygus@daum.net</a></p>
 </div>
 </body>
